@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <base target="_blank">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/style.min.css"/>
+    <link rel="icon" href="img/logo.svg"/>
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+    crossorigin="anonymous">
+    <title class="lng-title"></title>
+  </head>
+  <body> 
+    <div id="cursor"></div>
+    <div id="aura"></div>
+    <div class="navigation">
+      <div class="navigation_progress"></div>
+      <div class="navigation_link">
+        <a href="#home">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+      </div>
+    </div>
+    <div class="burger">
+     <img onclick="clickOpenMenu()" src="img/hamburger.svg"/>
+    </div>
+    <div class="mobile"> 
+      <div class="mobile_section"> 
+        <a 
+        href="#home" 
+        class="mob lng-link-mob-1" 
+        onclick="clickOpenMenu()">
+        </a>
+      </div>
+      <div class="mobile_section"> 
+        <a 
+        href="#stack" 
+        class="mob lng-link-mob-2" 
+        onclick="clickOpenMenu()">
+        </a>
+      </div>
+      <div class="mobile_section"> 
+        <a 
+        href="#projects" 
+        class="mob lng-link-mob-3" 
+        onclick="clickOpenMenu()">
+        </a>
+      </div>
+      <div 
+      class="mobile_section mob lng-link-mob-4"
+      onclick="clickOpenTab()"> 
+        <p></p>
+        <span></span>
+      </div>
+      <div class="tabs-mobile">
+        <div class="mobile_section contacts-tab"> 
+          <a href="https://www.linkedin.com/in/артем-завьялов-57269923a/">LinkedIn</a>
+        </div>
+        <div class="mobile_section contacts-tab"> 
+          <a href="https://t.me/JohnShepard1211">Telegram</a>
+        </div>
+        <div class="mobile_section contacts-tab"> 
+          <a href="https://github.com/UserSupabase">GitHub</a>
+        </div>
+        <div class="mobile_section contacts-tab"> 
+          <a href="https://bitbucket.org/Artem951112/">Bitbucket</a>
+        </div>
+        <div class="mobile_section contacts-tab"> 
+          <a 
+          class="mob lng-link-mob-5" 
+          href="downloads/Artem Zavyalov RU CV.pdf"
+          download>
+          </a>
+        </div>
+      </div>
+    </div>
+    <header id="home"> 
+      <div class="container">
+        <div class="container__menu">
+          <div class="container__menu_logo"><img src="img/logo.svg"/></div>
+          <ul class="container__menu_list">
+            <li class="lng-li-one""><span></span></li>
+            <li><a href="#stack" class="lng-li-two"></a></li>
+            <li><a href="#projects" class="lng-li-three"></a></li>
+            <li>
+             <select>
+              <option value="en">ENG</option>
+              <option value="ru">RU</option>
+             </select>
+            </li>
+          </ul>
+        </div>
+        <div class="container__contacts">
+          <ul> 
+            <li><a href="https://www.linkedin.com/in/артем-завьялов-57269923a/">LinkedIn</a></li>
+            <li><a href="https://t.me/JohnShepard1211">Telegram</a></li>
+            <li><a href="https://github.com/UserSupabase">GitHub </a></li>
+            <li><a href="https://bitbucket.org/Artem951112/">Bitbucket</a></li>
+            <li>
+              <a class="ru-resume lng-download" 
+              href="downloads/Artsem Zavyalov RU CV.pdf"
+              download>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="container__main">
+          <div class="container__main_info">
+            <h1 class="container__main_info-title lng-hello"></h1>
+            <h1 class="container__main_info-title-down lng-iam"></h1>
+            <div class="container__main_info_skills">
+              <p class="prev lng-preview"></p>
+              <form class="container__main_info_skills_form" action="mailto:zavyalov.artsem@gmail.com">
+                <button class="container__main_info_skills_form-btn btn-contact lng-contact"></button>
+              </form>
+            </div>
+          </div>
+          <div class="container__main_circle">
+            <div class="container__main_circle-pulse">
+              <div class="container__main_circle-pulse-skill">
+                <p>JS</p>
+              </div>
+              <div class="container__main_circle-pulse-skill">
+                <p>TS</p>
+              </div>
+              <div class="container__main_circle-pulse-skill">
+                <p>/ ></p>
+              </div>
+              <div class="container__main_circle-pulse-circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="stack" id="stack">
+      <h1 class="title lng-stack"></h1>
+      <div class="stack__slider"> 
+        <button class="stack__slider-handle left-handle"><span>&#8249;</span></button>
+        <div class="stack__slider__slides">
+          <div class="stack__slider__slides-slide"> 
+            <p>JavaScript</p>
+          </div>
+          <div class="stack__slider__slides-slide"> 
+            <p>TypeScript</p>
+          </div>
+          <div class="stack__slider__slides-slide"> 
+            <P>Angular</P>
+          </div>
+          <div class="stack__slider__slides-slide"> 
+            <p>NodeJS</p>
+          </div>
+          <div class="stack__slider__slides-slide"> 
+            <p>NestJS</p>
+          </div>
+          <div class="stack__slider__slides-slide"> 
+            <p>SocketIO</p>
+          </div>
+          <div class="stack__slider__slides-slide"> 
+            <p>Gulp</p>
+          </div>
+          <div class="stack__slider__slides-slide">
+            <p>MongoDB</p>
+          </div>
+        </div>
+        <button class="stack__slider-handle right-handle"><span>&#8250;</span></button>
+      </div>
+      <div class="stack__grid">
+        <div class="stack__grid__container">
+          <div class="stack__grid__container-skill"> 
+            <p>JavaScript</p>
+          </div>
+          <div class="stack__grid__container-skill"> 
+            <p>TypeScript</p>
+          </div>
+          <div class="stack__grid__container-skill"> 
+            <p>Angular</p>
+          </div>
+          <div class="stack__grid__container-skill"> 
+            <p>NodeJS</p>
+          </div>
+          <div class="stack__grid__container-skill"> 
+            <p>NestJS</p>
+          </div>
+          <div class="stack__grid__container-skill"> 
+            <p>SocketIO</p>
+          </div>
+          <div class="stack__grid__container-skill"> 
+            <p>Gulp</p>
+          </div>
+          <div class="stack__grid__container-skill"> 
+            <p>MongoDB</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="title lng-project"></div>
+      <div class="projects__line"></div>
+      <div class="projects__section">
+        <div class="projects__section-title lng-topic-1"></div>
+        <div class="projects__section-subtitle lng-time-1"></div>
+        <p class="desc lng-description-1"></p>
+        <a class="source lng-href-source-1" href="https://barbanera.pl/"></a>
+      </div>
+      <div class="projects__line"></div>
+      <div class="projects__section">
+        <div class="projects__section-title lng-topic-2"></div>
+        <div class="projects__section-subtitle lng-time-2"></div>
+        <p class="desc lng-description-2"></p>
+        <a class="source lng-href-source-2" href="#"></a>
+      </div>
+      <div class="projects__line"></div>
+      <div class="projects__section">
+        <div class="projects__section-title lng-topic-3"></div>
+        <div class="projects__section-subtitle lng-time-3"></div>
+        <p class="desc lng-description-3"></p>
+        <a class="source lng-href-source-3" href="#"></a>
+      </div>
+      <div class="projects__line"></div>
+      <div class="projects__section">
+        <div class="projects__section-title lng-topic-4"></div>
+        <div class="projects__section-subtitle lng-time-4"></div>
+        <p class="desc lng-description-4"></p>
+        <a class="source lng-href-source-4" href="#"></a>
+      </div>
+      <div class="projects__line"></div>
+      <div class="projects__section">
+        <div class="projects__section-title lng-topic-5"></div>
+        <div class="projects__section-subtitle lng-time-5"></div>
+        <p class="desc lng-description-5"></p>
+        <a class="source lng-href-source-5" href="https://bitbucket.org/Artem951112/"></a>
+      </div>
+      <div class="projects__line"></div>
+      <div class="projects__section">
+        <div class="projects__section-title lng-topic-6"></div>
+        <div class="projects__section-subtitle lng-time-6"></div>
+        <p class="desc lng-description-6"></p>
+        <a class="source lng-href-source-6" href="https://usersupabase.github.io/cars-hw/"></a>
+      </div>
+    </section>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
